@@ -1,0 +1,4 @@
+(function(){
+	$('.gnbDl').hide();
+
+})(jQuery);
