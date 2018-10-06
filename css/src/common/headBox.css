@@ -1,0 +1,57 @@
+.headBox{width: 100%;
+height: 100px;
+background-image: url(../../../img/download.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+h1{float:left;
+width: 200px;
+height: 100%;
+background-image: url(../../../img/devine-logo.png);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+h1>a{display: block;
+width: 100%;height: 100%;}
+
+.gnb{float:right;
+width: 1000px;height: 100%;
+}
+
+.gnb>ul{width: 100%;
+height: 100%;}
+
+.gnb>ul>li{float:left;
+width: 150px;height: 100%;
+font-size: 1rem;}
+
+.gnb>ul>li>a{
+display: block;
+width: 100%;height: 100%;
+line-height: 100px;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
