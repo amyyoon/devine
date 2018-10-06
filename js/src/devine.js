@@ -33,17 +33,24 @@
 	});
 
 
-	var gnbWrapLi = $('gnbWrap').find('li');
-	var gnbWrapDl = gnbWrapLi.find('dt');
+	var gnbWrapLi = $('.gnbWrap').find('li');
+	
 
-	gnbWrapDl.hide();
-	// $(window).on('resize',function(e){
-	// 	e.preventDefault();
-	// 	var nowWidth = $(window).outerWidth();
-	// 	if(nowWidth<960){
-		
-	// 	}
-	// });
+	$('.dt').hide();
+	gnbWrapLi.on('click',function(e){
+		e.preventDefault();
+		var i = $(this).index();
+		gnbWrapLi.eq(i).find('dt').slideDown();
+		gnbWrapLi.eq(i).siblings().find('dt').slideUp();
+	});
 
+	var i = $(this).index();
+	var mydt =gnbWrapLi.eq(i).find('dt').css('display');
+
+	if(mydt === 'block'){
+		mydt.slideUp(3000);
+	}else{
+		mydt.slideDown(3000);
+	}
 
 })(jQuery);
