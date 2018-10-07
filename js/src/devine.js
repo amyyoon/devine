@@ -53,4 +53,34 @@
 		mydt.slideDown(3000);
 	}
 
+	var riceBox =$('.riceBox');
+	var rice =$('.rice');
+	var riceP =$('.rice_sub').children('p');
+
+	var riceH =rice.innerHeight();
+	var nowT =0, per, myP;
+
+	var myScroll =function() {
+		per =nowT /bg01H *100;
+		(per >=100)? per=100:per=per;
+		myP = 'center' + 'per';
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 })(jQuery);
