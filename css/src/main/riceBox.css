@@ -9,7 +9,11 @@ background-position: center;
 background-size: cover;
 }
 
-.rice{width: 100%;height: 100%;
+.rice{position: absolute;
+top:100%;
+left:0;
+transform:translateY(0);
+width: 100%;height: 100%;
 background-image: url(../../../img/download-4.jpg);
 background-repeat: no-repeat;
 background-position: center;
