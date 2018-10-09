@@ -1,0 +1,6 @@
+.wineBox{width: 100%;
+height: 600px;
+background-image: url(../../../img/new-hero-img.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}

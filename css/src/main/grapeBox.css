@@ -1,0 +1,49 @@
+.grapeBox{position: relative;
+width: 100%;
+height: 800px;}
+.grape:before{position: absolute;
+content:" ";
+display: block;
+left:0;
+width: 100%;height: 150px;
+background-image: url(../../../img/block.png);
+background-repeat: repeat-x;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+z-index: 900;
+}
+.grape{position: absolute;
+width: 100%;height: 100%;
+background-image: url(../../../img/download-2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+z-index: -100;}
+
+.grape:after{position: absolute;
+content:" ";
+display: block;
+left:0;
+bottom:-5px;
+width: 100%;height: 150px;
+background-image: url(../../../img/block.png);
+background-repeat: repeat-x;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+z-index: 900;
+}
+
+.bottle{position: absolute;
+width: 250px;height: 450px;
+bottom:0;
+left:50%;
+margin-left: -175px;
+background-image: url(../../../img/download.png);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+z-index: -100;}
