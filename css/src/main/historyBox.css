@@ -42,7 +42,7 @@ border:0;
 }
 
 /*mobile*/
-@media screen and (min-width: 400px) and (max-width: 750px) {
+@media screen and (min-width: 300px) and (max-width: 750px) {
 .historyBox{
 height: 700px;}
 .content{width: 80%;

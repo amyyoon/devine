@@ -121,7 +121,7 @@ height: 100px;}
 }
 
 /*mobile*/
-@media screen and (min-width: 400px) and (max-width: 499px) {
+@media screen and (min-width: 300px) and (max-width: 499px) {
 
 .footBox{position:relative;
 height: 1600px;
