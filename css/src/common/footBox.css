@@ -1,0 +1,12 @@
+.footBox{width: 100%;
+height: 80px;
+background-image: url(../../../img/download.jpg);
+}
+
+.footBox>p{font-size: 0.9em;
+color:#999;
+padding:20px;
+box-sizing: border-box;}
+
+.footBox>p>a{color:#cf7041;
+font-weight: 400;}

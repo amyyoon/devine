@@ -61,20 +61,20 @@
 	var nowT =0, per, myP;
 
 	var myScroll =function() {
-		per =nowT /bg01H *100;
+		per =nowT /riceH *100;
 		(per >=100)? per=100:per=per;
 		myP = 'center' + 'per';
-	}
+	riceBox.css({backgroundPosition:myP+'%'});
+	rice.stop(true,false).animate({
+		transform:'translateY('+ -per*10 +'px)',
+	},300);
+	};
 
+	myScroll();
 
-
-
-
-
-
-
-
-
+	$(window).on('scroll',function(){
+		nowT = $(this).scrollTop();
+	});
 
 
 
