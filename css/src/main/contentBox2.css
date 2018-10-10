@@ -44,7 +44,7 @@ border:0;
 /*mobile*/
 @media screen and (min-width: 300px) and (max-width: 800px) {
 .contentBox2{
-height: 500px;}
+height: 700px;}
 .content{width: 80%;
 max-width:600px;
 margin:0 auto 80px;}
