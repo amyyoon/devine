@@ -36,7 +36,7 @@
 	var gnbWrapLi = $('.gnbWrap').find('li');
 	
 
-	$('.dt').hide();
+	/*$('.dt').hide();
 	gnbWrapLi.on('click',function(e){
 		e.preventDefault();
 		var i = $(this).index();
@@ -70,15 +70,24 @@
 	},300);
 	};
 
-	myScroll();
+	myScroll();*/
 
 	$(window).on('scroll',function(){
 		nowT = $(this).scrollTop();
 	});
 
+	var modal = $('.modal');
+	var modalBtn =$('.modalBtn');
+	var close = modal.find('button');
 
-
-
+	modal.hide();
+	modalBtn.on('click',function(e){
+		e.preventDefault();
+		modal.show();
+	});
+	close.on('click',function(){
+		modal.hide();
+	});
 
 
 
