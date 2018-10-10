@@ -78,15 +78,16 @@
 
 	var modal = $('.modal');
 	var modalBtn =$('.modalBtn');
-	var close = modal.find('button');
+	var close = $('.close');
 
 	modal.hide();
 	modalBtn.on('click',function(e){
 		e.preventDefault();
-		modal.show();
+		modal.fadeIn();
 	});
-	close.on('click',function(){
-		modal.hide();
+	close.on('click',function(e){
+		e.preventDefault();
+		modal.fadeOut();
 	});
 
 
