@@ -81,7 +81,8 @@ line-height: 30px;
 position: absolute;
 right:30px;
 top:50%;
-margin-top: -150px;}
+margin-top: -15px;
+z-index: 1000;}
 .hamburger>ul{width: 100%;height: 100%;}
 .hamburger>ul>a{display: block;
 width: 100%;height: 100%;}
