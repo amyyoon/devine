@@ -1,0 +1,74 @@
+.awardBox{position: relative;
+box-sizing: border-box;
+width: 100%;
+height: 600px;
+background-image: url(../../../img/download.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+
+.content{
+height: 100%;
+margin: auto;}
+.content>h2{
+text-transform: uppercase;
+font-size: 2rem;
+text-align: center;
+font-weight: bold;
+}
+.content>p{
+box-sizing: border-box;
+text-transform: capitalize;
+font-size: 1rem;
+text-align: center;
+line-height: 25px;
+}
+
+.ora{color:#cf7041;}
+
+.burnt{
+width: 220px;
+height: 80px;margin: auto;
+background-image: url(../../../img/burnt-btn.svg);
+background-color: transparent;
+color:#fff;
+padding:25px 35px;
+display: block;
+font-weight: 900;
+letter-spacing: 1px;
+font-size: 16px;
+border:0;
+text-transform: uppercase;
+}
+
+/*PCfull*/
+@media screen and (min-width: 791px) and (max-width: 1920px) {
+.content{width: 700px;}
+.content>p{padding: 50px;}
+.awardBox{padding-top: 80px;}
+}
+/*mobile*/
+@media screen and (min-width: 451px) and (max-width: 790px) {
+.awardBox{
+height: 600px;}
+.content{width: 80%;
+max-width:450px;
+margin:0 auto 20px;}
+}
+
+
+/*mobile*/
+@media screen and (min-width: 300px) and (max-width: 450px) {
+.awardBox{
+height: 900px;}
+.content{width: 95%;
+max-width:300px;
+margin:0 auto 20px;}
+}
+
+
+
+
+
