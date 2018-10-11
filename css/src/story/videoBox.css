@@ -19,8 +19,7 @@ background-image: url(../../../img/download-4.jpg);
 background-repeat: no-repeat;
 background-position: center;
 -webkit-background-size: cover;
-background-size: cover;
-z-index: -100;}
+background-size: cover;}
 
 .video>h2{
 width: 80%;
