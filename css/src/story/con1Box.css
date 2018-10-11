@@ -1,0 +1,62 @@
+.con1Box{width: 100%;
+background-image: url(../../../img/download.jpg);
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.con1Box>ul{width: 100%;
+height: 100%;
+box-sizing: border-box;}
+
+.con1Box>ul>li{
+padding:50px;
+box-sizing: border-box;}
+
+.con1Box>ul>li>h2{font-size: 28px;
+line-height: 40px;}
+.orange{font-size: 28px;
+color:#d16e43;}
+
+.con1Box>ul>li:nth-of-type(1)>p{padding-top: 80px;
+box-sizing: border-box;
+font-size: 18px;}
+
+.con1Box>ul>li:nth-of-type(2)>p{
+box-sizing: border-box;
+font-size: 18px;}
+
+
+/*pcfull*/
+@media screen and (min-width: 1201px) and (max-width: 1925px) {
+.con1Box{height: 600px;}
+.con1Box>ul{padding:50px 100px 50px 100px;}
+.con1Box>ul>li{float:left;width: 50%;
+height: 100%;}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+.con1Box{height: 900px;}
+.con1Box>ul{padding:50px 100px 50px 100px;}
+.con1Box>ul>li{float:left;
+width: 50%;
+height: 100%;}
+}
+
+
+/*mobile*/
+@media screen and (min-width: 600px) and (max-width: 900px) {
+.con1Box{height: 1000px;}
+.con1Box>ul{padding:50px 50px 50px 50px;}
+.con1Box>ul>li{width: 100%;height: 50%;}
+}
+
+/*mobile*/
+@media screen and (min-width: 500px) and (max-width: 599px) {
+.con1Box{height: 1100px;}
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px) {
+.con1Box{height: 1400px;}
+}
