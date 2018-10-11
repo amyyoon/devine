@@ -1,0 +1,86 @@
+.spiritBox{position: relative;
+box-sizing: border-box;
+width: 100%;
+height: 600px;
+background-image: url(../../../img/bg-dark-texture-repeat.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.spiritBox:after{content:" ";
+display: block;
+position: absolute;
+box-sizing: border-box;
+width: 100%;
+height: 100px;
+top:-100px;
+background-image: url(../../../img/grunge-up-dark.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.content02{
+height: 100%;
+margin: auto;}
+.content02>h2{
+text-transform: uppercase;
+font-size: 2rem;
+text-align: center;
+font-weight: bold;
+}
+.content02>p{
+box-sizing: border-box;
+text-transform: capitalize;
+font-size: 1rem;
+text-align: center;
+line-height: 25px;
+}
+
+.ora{color:#cf7041;}
+
+.grey01{
+width: 240px;
+height: 80px;margin: auto;
+background-image: url(../../../img/grey-btn.svg);
+background-color: transparent;
+color:#fff;
+padding:25px 35px;
+display: block;
+font-weight: 900;
+letter-spacing: 1px;
+font-size: 16px;
+border:0;
+text-transform: uppercase;
+}
+
+/*PCfull*/
+@media screen and (min-width: 791px) and (max-width: 1920px) {
+.content02{width: 700px;}
+.content02>p{padding: 50px;}
+.spiritBox{padding-top: 80px;}
+}
+/*mobile*/
+@media screen and (min-width: 451px) and (max-width: 790px) {
+.spiritBox{
+height: 600px;}
+.content02{width: 80%;
+max-width:450px;
+margin:0 auto 20px;}
+}
+
+
+/*mobile*/
+@media screen and (min-width: 300px) and (max-width: 450px) {
+.spiritBox{
+height: 900px;}
+.content02{width: 95%;
+max-width:300px;
+margin:0 auto 20px;}
+}
+
+
+
+
+
