@@ -1,0 +1,63 @@
+.productBox{
+top:0;
+left:0;
+width: 100%;
+height: 700px;}
+
+.productBox>ul{width: 100%;
+height: 100%;
+background-image: url(../../../img/sllit-product-landing-bg.png);
+-webkit-background-size: 100%;
+background-size: 100%;
+background-position: center;
+padding-bottom: 300px;
+padding-top: 100px;
+}
+
+.productBox>ul>li{float:left;
+width: 50%;
+height: 100%;}
+
+.productBox>ul>li>dl{width: 100%;
+height: 90%;}
+
+.productBox>ul>li>dl>dt{font-size: 32px;
+text-align: center;
+font-weight: bold;
+width: 100%;height: 20%;
+text-transform: uppercase;}
+.productBox>ul>li>dl>div{width: 100%;
+height: 70%;
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: contain;
+background-size: contain;}
+
+.productBox>ul>li>dl>div>a{display: block;
+width: 100%;height: 100%;}
+
+.productBox>ul>li>dl>div>a:hover,
+.productBox>ul>li>dl>div>a:focus{
+opacity: 0.7;
+}
+
+
+
+.productBox>ul>li:nth-of-type(1)>dl>div{
+background-image: url(../../../img/download-3.png);}
+
+.productBox>ul>li:nth-of-type(2)>dl>div{
+background-image: url(../../../img/download-4.png);}
+
+.hi{color:#cf7041;}
+
+
+
+
+
+
+
+
+
+
+

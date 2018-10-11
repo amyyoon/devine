@@ -1,7 +1,7 @@
-.videoBox{position: relative;
+.product1Box{position: relative;
 width: 100%;
 height: 800px;}
-.video:before{position: absolute;
+.product1:before{position: absolute;
 content:" ";
 display: block;
 left:0;
@@ -12,15 +12,15 @@ background-position: center;
 -webkit-background-size: cover;
 background-size: cover;
 z-index: 900;}
-.video{position: absolute;
+.product1{position: absolute;
 width: 100%;height: 100%;
-background-image: url(../../../img/download-4.jpg);
+background-image: url(../../../img/download-13.jpg);
 background-repeat: no-repeat;
 background-position: center;
 -webkit-background-size: cover;
 background-size: cover;}
 
-.video>h2{
+.product1>h2{
 width: 80%;
 max-width: 850px;
 margin:300px auto 50px;
@@ -31,8 +31,8 @@ font-weight: bold;
 color:#fff;
 }
 
-.video>button{
-width: 200px;
+.product1>button{
+width: 220px;
 height: 80px;margin: auto;
 background-image: url(../../../img/burnt-btn.svg);
 background-color: transparent;
@@ -43,20 +43,21 @@ font-weight: 900;
 letter-spacing: 1px;
 font-size: 16px;
 border:0;
+text-transform: uppercase;
 }
 
-.video>button:hover,
-.video>button:focus{opacity: 0.7;}
+.product1>button:hover,
+.product1>button:focus{opacity: 0.7;}
 
 /*PCfull*/
 @media screen and (min-width: 801px) and (max-width: 1920px) {
-.video:before{width:100%;}
+.product1:before{width:100%;}
 }
 
 
 /*mobile*/
 @media screen and (min-width: 300px) and (max-width: 800px) {
-.video:before{width:100%;}
+.product1:before{width:100%;}
 }
 
 
